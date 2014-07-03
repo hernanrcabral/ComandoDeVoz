@@ -1,0 +1,32 @@
+
+
+<JSML>
+
+<ENGINE ENGID="Gender=Male;Name=Microsoft Mike">
+<!--<ENGINE ENGID="Gender=Female">-->
+<PROS RATE="200">
+Testing the <sayas phon="s ey ae z">sayas</sayas> tag.
+<sayas class="number">1234</sayas>.
+<sayas class="digits">1 2 3 4</sayas>.
+<sayas class="date">4/3/01</sayas>.
+<sayas class="time">12:34am</sayas>.
+
+<SAYAS sub="Hello, this is a substitution">
+This will be replaced
+</SAYAS>
+</PROS>
+</ENGINE>
+
+<ENGINE ENGID="Gender=Female">
+<PROS RATE="+20%" vol="1.0" pitch="150">This is fast and high-pitched and
+<PROS RATE="-20%" vol="1.0" pitch="300"><emp level="moderate"/>this</PROS> is emphatic</PROS>
+</ENGINE>
+
+<PROS RATE="-30%" pitch="-50%" vol="0.5">
+This is slower, lower and quieter,
+</PROS>and here comes a large marked pause
+<BREAK MARK="PAUSE" size="large"/>and another <MARKER mark="Test mark"/>test marker which you
+can detect with a SpeakableListener.
+
+</JSML>
+
